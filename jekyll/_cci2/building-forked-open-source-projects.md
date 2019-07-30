@@ -18,22 +18,22 @@ If you are contributing to an open source project that builds on CircleCI, one o
 ## Sign in
 Before you can build a project on CircleCI, you’ll need to [log in](https://circleci.com/vcs-authorize/) or [sign up](https://circleci.com/signup/).
 
-![Signup page at circleci.com/signup/](:storage/44338f16-d7e8-461d-aaae-aa816512713e/dcf65f67.png)
+![Signup page at circleci.com/signup/](../assets/img/docs/signup-page.png)
 
 If you belong to multiple organizations, make sure that you choose the correct one by selecting it from the dropdown menu in the upper left-hand corner of the CircleCI dashboard.
 
-![Organization selection dropdown in the top left corner of the UI](:storage/44338f16-d7e8-461d-aaae-aa816512713e/8d918c1e.png)
+![Organization selection dropdown in the top left corner of the UI](../assets/img/docs/org-selector-corner.png)
 
 ## Set up the for as a new project
 To start building the project on CircleCI, click `Add Projects` on the left sidebar. From there, you can select the project that you’d like to set up by clicking the `Set Up Project` button on the right side. If you aren’t seeing your fork as a project in the list, make sure that you have the `Show Forks` checkbox selected. Repositories that are forks are indicated with a fork symbol to the right of the name.
 
-![Add projects page](:storage/44338f16-d7e8-461d-aaae-aa816512713e/09d6fc90.png)
+![Add projects page](../assets/img/docs/add-projects-page.png)
 
 The next page will give you a walkthrough on how to add a `config.yml` file to your project. Since you are building a fork of a project that already builds on CircleCI, the forked repository will already have a `config.yml` file which you can find in the `.circleci` directory. You don’t need to add a second config file, so you can just scroll down and click the `Start building` button.
 
 And that’s it! You’ve started building the forked repository on CircleCI, and you are running the exact same CI jobs that the original repository uses.
 
-![Setup new project page](:storage/44338f16-d7e8-461d-aaae-aa816512713e/01755d67.png)
+![Setup new project page](../assets/img/docs/set-up-new-project-page.png)
 
 ## Troubleshooting
 Build failed? There’s a few things that can cause this when you’re building a forked repository. Most of these can be solved by making some edits to the `.circleci/config.yml` file.
